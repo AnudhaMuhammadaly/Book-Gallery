@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="png/image"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzgnRv5jQe3uFefT7g92nazYuXE2rRe5-WA&usqp=CAU">
+</head>
+
+<body>
+    <header>
+
+        <h1>Page Plaza</h1>
+    </header>
+    <section>
+        <div class="banner"></div>
+        <div class="row">
+
+            <div class="col">
+                <img  src="data:image/jpeg;base64,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
+      " alt=""> 
+                <h5>₹389.00</h5> <br>
+                <button id="btn" ><a href="https://www.biblio.com/book/alchemist-coelho-paulo/d/1053992732?aid=frg&srsltid=AfmBOor51zDkCkZZrofLn2drLXDqAzIfbMJYoX95hPKc4OtfQ5YNHl-UHqc
+                    " style="text-decoration: none;">Buy Now </a></button>
+                <button id="crt" ><a href="https://www.biblio.com/book/alchemist-coelho-paulo/d/1053992732?aid=frg&srsltid=AfmBOor51zDkCkZZrofLn2drLXDqAzIfbMJYoX95hPKc4OtfQ5YNHl-UHqc
+                    "style="text-decoration: none;">Add to Cart </a></button>
+            </div>
+
+            <div class="col">
+                <img  src="https://www.meripustak.com/MeripustakStatic/FullImage/One-Indian-Girl_138367.jpg" alt="">
+              <h5>₹141.00</h5> <br>
+              <button id="btn"><a href="https://www.amazon.in/Indian-Girl-RUPA-PUBLICATION-INDIA/dp/0325636052/ref=sr_1_1?crid=2N2BRAJT0F464&keywords=one+indian+girl+by+chetan+bhagat&qid=1701238794&sprefix=one+indian+%2Caps%2C402&sr=8-1
+                " style="text-decoration: none;">Buy Now</a></button>
+              <button id="crt" ><a href="https://www.amazon.in/Indian-Girl-RUPA-PUBLICATION-INDIA/dp/0325636052/ref=sr_1_1?crid=2N2BRAJT0F464&keywords=one+indian+girl+by+chetan+bhagat&qid=1701238794&sprefix=one+indian+%2Caps%2C402&sr=8-1" style="text-decoration: none;">Add to Cart </a></button>
+                
+                
+            </div>
+
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/51STjvOwjYL._SY445_SX342_.jpg" alt="">
+                <h5>₹395.00</h5> <br>
+                <button id="btn" ><a href="https://www.amazon.in/Dark-Matter-Mind-Blowing-Twisted-Thriller/dp/144729758X/ref=sr_1_1?crid=328OQ6CH0Z7NL&keywords=dark+matter+bl&qid=1701238874&sprefix=dark+matter+bl%2Caps%2C212&sr=8-1" style="text-decoration: none;">Buy Now</a></button>
+                <button id="crt" ><a href="https://www.amazon.in/Dark-Matter-Mind-Blowing-Twisted-Thriller/dp/144729758X/ref=sr_1_1?crid=328OQ6CH0Z7NL&keywords=dark+matter+bl&qid=1701238874&sprefix=dark+matter+bl%2Caps%2C212&sr=8-1" style="text-decoration: none;">Add to Cart </a></button>
+               
+            </div>
+
+            <div class="col">
+                <img  src="https://m.media-amazon.com/images/I/61W8Xc1WmDL._BG0,0,0,0_FMpng_AC_SY320_SX320_.jpg" alt="">
+              <h5>₹149.00</h5> <br>
+                <button id="btn" ><a href="https://www.amazon.in/Enchanted-Castle-Nesbit/dp/9389717140/ref=sr_1_1?crid=45SUKWLUAMJB&keywords=the+enchanted+castle&qid=1701238924&sprefix=the+enchsted+cast%2Caps%2C211&sr=8-1"style="text-decoration: none;">Buy Now</a></button>
+                <button id="crt" ><a href="https://www.amazon.in/Enchanted-Castle-Nesbit/dp/9389717140/ref=sr_1_1?crid=45SUKWLUAMJB&keywords=the+enchanted+castle&qid=1701238924&sprefix=the+enchsted+cast%2Caps%2C211&sr=8-1" style="text-decoration: none;">Add to Cart </a></button>
+            </div>
+        </div>
+
+         
+
+
+
+        <div class="row">
+
+            <div class="col">
+                <img  src="https://m.media-amazon.com/images/I/61VAtRuPgYL._AC_UY327_FMwebp_QL65_.jpg
+      " alt=""> 
+                <h5>₹115.00</h5> <br>
+                <button id="btn" ><a href="https://www.amazon.in/POWER-YOUR-SUBCONSCIOUS-MIND/dp/935333845X/ref=sxin_17_sbv_search_btf?content-id=amzn1.sym.10447c6b-3f84-4df3-b999-01a8bbbf010e%3Aamzn1.sym.10447c6b-3f84-4df3-b999-01a8bbbf010e&crid=3KHHC9K7KRSA8&cv_ct_cx=the+power+of+your+subconscious+mind+joseph+murphy&keywords=the+power+of+your+subconscious+mind+joseph+murphy&nsdOptOutParam=true&pd_rd_i=935333845X&pd_rd_r=872adace-37fe-4d39-994b-94def447a10b&pd_rd_w=Mkqul&pd_rd_wg=SxAyJ&pf_rd_p=10447c6b-3f84-4df3-b999-01a8bbbf010e&pf_rd_r=GB0NX826FWHYVSXMAD7Q&qid=1701239010&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=the+power+of+your+subconscious+mind+jo%2Caps%2C246&sr=1-1-b614a050-8d70-4320-9c19-cc457ab2a351" style="text-decoration: none;">Buy Now </a></button>
+                <button id="crt" ><a href="https://www.amazon.in/POWER-YOUR-SUBCONSCIOUS-MIND/dp/935333845X/ref=sxin_17_sbv_search_btf?content-id=amzn1.sym.10447c6b-3f84-4df3-b999-01a8bbbf010e%3Aamzn1.sym.10447c6b-3f84-4df3-b999-01a8bbbf010e&crid=3KHHC9K7KRSA8&cv_ct_cx=the+power+of+your+subconscious+mind+joseph+murphy&keywords=the+power+of+your+subconscious+mind+joseph+murphy&nsdOptOutParam=true&pd_rd_i=935333845X&pd_rd_r=872adace-37fe-4d39-994b-94def447a10b&pd_rd_w=Mkqul&pd_rd_wg=SxAyJ&pf_rd_p=10447c6b-3f84-4df3-b999-01a8bbbf010e&pf_rd_r=GB0NX826FWHYVSXMAD7Q&qid=1701239010&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=the+power+of+your+subconscious+mind+jo%2Caps%2C246&sr=1-1-b614a050-8d70-4320-9c19-cc457ab2a351" style="text-decoration: none;">Add to Cart </a></button>
+            </div>
+
+            <div class="col">
+                <img  src="https://m.media-amazon.com/images/I/41kRkqIt6aL._SY445_SX342_.jpg" alt="">
+              <h5>₹183.00</h5> <br>
+              <button id="btn"><a href="https://www.amazon.in/That-Night-Friends-Haunting-Secret/dp/0143451871/ref=sr_1_1?crid=2OAL5WCNZL1J0&keywords=that+night&qid=1701239051&s=books&sprefix=that+%2Cstripbooks%2C220&sr=1-1" style="text-decoration: none;">Buy Now</a></button>
+              <button id="crt"><a href="https://www.amazon.in/That-Night-Friends-Haunting-Secret/dp/0143451871/ref=sr_1_1?crid=2OAL5WCNZL1J0&keywords=that+night&qid=1701239051&s=books&sprefix=that+%2Cstripbooks%2C220&sr=1-1" style="text-decoration: none;">Add to Cart </a></button>
+                
+                
+            </div>
+
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/91868k2+gUL._SY466_.jpg" alt="">
+                <h5>₹243.00</h5> <br>
+                <button id="btn" ><a href="https://www.amazon.in/VERITY-Paperback-Hoover-Colleen/dp/1408726602/ref=sr_1_1?crid=L6LXPCYUQWSV&keywords=verity+by+colleen+hoover&qid=1701239082&s=books&sprefix=ver%2Cstripbooks%2C209&sr=1-1" style="text-decoration: none;">Buy Now</a></button>
+                <button id="crt" ><a href="https://www.amazon.in/VERITY-Paperback-Hoover-Colleen/dp/1408726602/ref=sr_1_1?crid=L6LXPCYUQWSV&keywords=verity+by+colleen+hoover&qid=1701239082&s=books&sprefix=ver%2Cstripbooks%2C209&sr=1-1" style="text-decoration: none;">Add to Cart </a></button>
+               
+            </div>
+
+            <div class="col">
+                <img  src="https://m.media-amazon.com/images/I/810pVhEvANL._SY466_.jpg" alt="">
+              <h5>₹249.00</h5> <br>
+                <button id="btn" ><a href="https://www.amazon.in/As-Good-Dead-thriller-everyone/dp/140529860X/ref=sr_1_1?crid=3UZI2QF7YKLFZ&keywords=as+good+as+dead&qid=1701239112&s=books&sprefix=as+g%2Cstripbooks%2C230&sr=1-1" style="text-decoration: none;">Buy Now</a></button>
+                <button id="crt" ><a href="https://www.amazon.in/As-Good-Dead-thriller-everyone/dp/140529860X/ref=sr_1_1?crid=3UZI2QF7YKLFZ&keywords=as+good+as+dead&qid=1701239112&s=books&sprefix=as+g%2Cstripbooks%2C230&sr=1-1" style="text-decoration: none;">Add to Cart </a></button>
+            </div>
+        </div>
+
+
+
+
+        
+    </section>
+    <footer> <br>
+<h3>Connect with us</h3>
+<div><a href="">Instagram</a></div>
+<div><a href="">Facebook</a></div>
+<div><a href="">Gmail</a></div>
+
+    </footer>
+</body>
+
+</html>
